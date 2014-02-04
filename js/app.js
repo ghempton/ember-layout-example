@@ -58,7 +58,7 @@ App.routeManager = Em.RouteManager.create({
     selector: '.layout-nesting',
     route: 'layout-nesting',
     viewClass: Em.View.extend({
-      templateName: 'layout-nesting',
+      templateName: 'layout-nesting'
     }),
     section1: App.SubNavState.create({
       route: 'section1',
@@ -93,7 +93,7 @@ App.routeManager = Em.RouteManager.create({
     selector: '.route-parameters',
     route: 'route-parameters',
     viewClass: Em.View.extend({
-      templateName: 'route-parameters',
+      templateName: 'route-parameters'
     }),
     items: Em.LayoutState.create({
       viewClass: Em.View.extend({
